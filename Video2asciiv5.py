@@ -1,25 +1,25 @@
 import os, subprocess, time, mimetypes
-pip_list = subprocess.run('pip list', shell=True, stdout=subprocess.PIPE).stdout.decode('utf-8')
-os.system('cls')
-os.system('color 7')
-if 'opencv-python' not in pip_list:
-    os.system('cls')
-    os.system('color 7')
-    print('\n缺少套件:opencv-python\n')
-    time.sleep(1)
-    os.system('pip install -U opencv-python')
-if 'pygame' not in pip_list:
-    os.system('cls')
-    os.system('color 7')
-    print('\n缺少套件:pygame\n')
-    time.sleep(1)
-    os.system('pip install -U pygame')
-if 'requests' not in pip_list:
-    os.system('cls')
-    os.system('color 7')
-    print('\n缺少套件:requests\n')
-    time.sleep(1)
-    os.system('pip install -U requests')
+# pip_list = subprocess.run('pip list', shell=True, stdout=subprocess.PIPE).stdout.decode('utf-8')
+# os.system('cls')
+# os.system('color 7')
+# if 'opencv-python' not in pip_list:
+#     os.system('cls')
+#     os.system('color 7')
+#     print('\n缺少套件:opencv-python\n')
+#     time.sleep(1)
+#     os.system('pip install -U opencv-python')
+# if 'pygame' not in pip_list:
+#     os.system('cls')
+#     os.system('color 7')
+#     print('\n缺少套件:pygame\n')
+#     time.sleep(1)
+#     os.system('pip install -U pygame')
+# if 'requests' not in pip_list:
+#     os.system('cls')
+#     os.system('color 7')
+#     print('\n缺少套件:requests\n')
+#     time.sleep(1)
+#     os.system('pip install -U requests')
 
 # import requests
 
