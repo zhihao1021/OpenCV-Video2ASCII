@@ -1,0 +1,1 @@
+.\.venv\Scripts\activate.bat && python Video2asciiv6.py

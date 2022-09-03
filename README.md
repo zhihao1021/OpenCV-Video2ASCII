@@ -17,12 +17,25 @@ pip install -r requitements.txt
 OpenCV-Video2ASCII
   ├─ .gitignore
   ├─ README.md
+  ├─ requirements.txt
+  ├─ Start.cmd
   ├─ Video2asciiv5.py
-  └─ 你的影片mp4
+  └─ 你的影片
 ```
 
 ### 4.運行
+:information_source: 於Windows命令提示字元中運行時，建議將自型更改為點陣字型、大小8x8以獲得最佳觀賞體驗。
 ```
 python3 Video2asciiv5.py
 ```
 
+### 5.更新日誌
+```
+2022/9/3
+更新，版本為v6
+FPS控制器等待時間由追蹤系統時間更改為追蹤音軌時間
+新增Start.cmd
+
+2021/11/20
+首次發布，版本為v5
+```
